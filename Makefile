@@ -29,7 +29,7 @@ LDFLAGS+=$(ESMF_F90LINKOPTS) $(ESMF_F90LINKPATHS)
 
 LIBS+= -L$(SCHISM_DIR)/lib -lhydro -lcore
 LIBS+= -L$(PARMETIS_DIR) -lparmetis -lmetis
-LIBS+= -L$(MOSSCO_DIR)/lib -lmossco #_connector -lregridcoupler -lmossco_grid -lmossco_netcdf -lmossco_util
+LIBS+= -L$(MOSSCO_DIR)/lib -lmossco 
 F90FLAGS+= -I$(SCHISM_DIR)/include
 F90FLAGS+= -I$(MOSSCO_DIR)/include
 
