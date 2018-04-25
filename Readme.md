@@ -7,6 +7,8 @@ You will need to first install and compile the following:
 3) schism-esmf component wrapper
 4) MOSSCO 
 
+This directory should reside next to the schism/trunk and schism/esmf directories, e.g schism/mossco.
+
 Then, set environment variables to point to these installations:
 
 1) ESMFMKFILE to locate esmf.mk
